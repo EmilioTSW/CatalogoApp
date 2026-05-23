@@ -1,8 +1,22 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<section class="hero">
+    <h1>Catálogo de Videojuegos</h1>
+    <p>
+        ¡Hola! Te presento mi colección personal de videojuegos favoritos.
+        Explora títulos clásicos, modernos y juegos que marcaron mi experiencia gamer.
+    </p>
+</section>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="info-box">
+    <h2 class="section-title">¿Qué es esto?</h2>
+    <p>
+        Esta app es un catálogo personal donde puedes explorar videojuegos
+        organizados por género, año y consola. También puedes consultar detalles
+        de cada juego y agregar nuevos títulos.
+    </p>
+
+    <br />
+
+    <a class="btn-gamer" asp-controller="Catalogo" asp-action="Index">
+        Ver videojuegos
+    </a>
+</section>
